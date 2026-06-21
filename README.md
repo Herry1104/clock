@@ -1,14 +1,25 @@
-# Tkinter Desktop Clock
+# Rounded Desktop Clock
 
-A simple Python desktop clock built with Tkinter.
+A simple Python desktop clock built with PySide6.
 
 ## Features
 
 - Shows the current time in `HH:MM:SS`
 - Updates every second
-- Starts maximized
-- Lets you change background color and text color
-- Includes several preset color themes
+- Pause and resume the clock display
+- Switch to a countdown timer with minute/second inputs that collapse while running
+- Toggle a semi-transparent window mode
+- Switch between several color themes
+- Resize the clock window
+- Smooth anti-aliased rounded window corners
+- Subtle Notre-Dame-inspired Gothic patterned background
+- Compact widget-style interface
+
+## Install
+
+```powershell
+python -m pip install PySide6
+```
 
 ## Run
 
